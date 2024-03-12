@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Color de fondo similar al de Google */
+}
+
+header {
+    background-color: #4285f4; /* Color del encabezado de Google */
+    padding: 10px;
+    color: white; /* Color del texto en el encabezado */
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background-color: #4285f4; /* Color de fondo similar al de Google */
+    color: white; /* Color del texto en los botones */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1a73e8; /* Cambio de color al pasar el ratón similar al de Google */
+}
+
+#content {
+    display: flex;
+    padding: 20px;
+    background-color: #371b10;
+    width: 150vw;
+    height: 150vh;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#cff-bg{
+    position: absolute;
+    align-self: center;
+    justify-content: center;
+    z-index: 1;
+    height: 100%;
+}
