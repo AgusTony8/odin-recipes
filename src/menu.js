@@ -33,7 +33,7 @@ export default function menuLoad() {
     "Un café dulce como nueva pareja y frío como los mensajes de mi ex"
   );
 
-  // Agrega las tarjetas al div "cff-cards"
+  //add de cards "cff-cards"
   cffCardsDiv.appendChild(cafeConLecheCard);
   cffCardsDiv.appendChild(cafeTurcoCard);
   cffCardsDiv.appendChild(frapuccinoCard);
@@ -41,7 +41,7 @@ export default function menuLoad() {
   //add cffCardsDiv to card container
   cardContainer.appendChild(cffCardsDiv);
 
-  // Agrega el div "card-container" al cuerpo
+  // add divs "card-container" to body
   body.appendChild(cardContainer);
 }
 

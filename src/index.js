@@ -26,14 +26,6 @@ function headerInitializer() {
     infoCoffeShop();
   });
 
-  //add btn to nav
-  navButtons.appendChild(bttHome);
-  navButtons.appendChild(bttMenu);
-
-  //add nav to header
-  headerNav.appendChild(navButtons);
-
-  return headerNav;
 }
 
 function createCoffeeCard(typeName, imageUrl, description) {
